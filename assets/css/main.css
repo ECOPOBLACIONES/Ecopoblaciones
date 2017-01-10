@@ -2367,7 +2367,8 @@
 			display: block;
 			width: 100%;
 			height: 0.75em;
-			background-color: #37c0fb;
+			/*background-color: #37c0fb;*/
+			background-color: #80bc28;
 			background-image: url("images/bg01.png");
 		}
 
@@ -2475,7 +2476,8 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner.jpg");*/
+		background-image: url("../../images/banner-bridge.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2483,7 +2485,7 @@
 		position: relative;
 	}
 
-		#banner header {
+		/*#banner header {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -2503,7 +2505,7 @@
 
 				#banner header h2 em {
 					opacity: 0.75;
-				}
+				}*/
 
 				#banner header h2 a {
 					border-bottom-color: rgba(255, 255, 255, 0.5);
