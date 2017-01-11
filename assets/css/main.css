@@ -2047,6 +2047,7 @@
 			.image.featured img {
 				display: block;
 				width: 100%;
+				height: 450px;
 			}
 
 /* Icon */
@@ -2073,7 +2074,7 @@
 		.icon.major {
 			text-align: center;
 			cursor: default;
-			background-color: #37c0fb;
+			background-color: #80bc28;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2118,6 +2119,8 @@
 
 	ul.icons {
 		cursor: default;
+		text-align: center;
+		padding-top: 25px;
 	}
 
 		ul.icons li {
