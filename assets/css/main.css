@@ -2480,7 +2480,7 @@
 
 	#banner {
 		/*background-image: url("../../images/banner.jpg");*/
-		background-image: url("../../images/banner-bridge.jpg");
+		background-image: url("../../images/banners01.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2488,7 +2488,7 @@
 		position: relative;
 	}
 
-		/*#banner header {
+		#banner header {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -2508,7 +2508,7 @@
 
 				#banner header h2 em {
 					opacity: 0.75;
-				}*/
+				}
 
 				#banner header h2 a {
 					border-bottom-color: rgba(255, 255, 255, 0.5);
