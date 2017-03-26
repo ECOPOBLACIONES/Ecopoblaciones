@@ -2047,8 +2047,14 @@
 
 			.image.featured img {
 				display: block;
-				width: 90%;
-				height: 650px;
+				width: 75%;
+				height: 750px;
+			}
+
+			.volImage img {
+				display: inline-block;
+				width: 24%;
+				height: 200px;
 			}
 
 /* Icon */
