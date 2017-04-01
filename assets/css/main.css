@@ -1902,6 +1902,8 @@
 	h3 {
 		font-size: 1.2em;
 		letter-spacing: -0.025em;
+		text-align: center;
+
 	}
 
 	sub {
@@ -2082,8 +2084,17 @@
 
 			.image.featured img {
 				display: block;
+				/*width: 75%;*/
+				width: 85%;
+				/*height: 750px;*/
+				height: 550px;
+				padding-left: 200px;
+			}
+
+			.image.featured1 img {
+				display: block;
 				width: 75%;
-				height: 750px;
+				height: 600px;
 			}
 
 			.volImage img {
@@ -2137,6 +2148,7 @@
 
 /* Lists */
 
+
 	ol.default {
 		list-style: decimal;
 		padding-left: 1.25em;
@@ -2167,6 +2179,11 @@
 
 		ul.icons li {
 			display: inline-block;
+			line-height: 1em;
+			padding-left: 1.5em;
+		}
+
+		ul.#iconsHm li {
 			line-height: 1em;
 			padding-left: 1.5em;
 		}
