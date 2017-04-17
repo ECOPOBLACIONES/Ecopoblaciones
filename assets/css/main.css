@@ -27,7 +27,9 @@
 		text-align: center;
 	}
 
-
+	img {
+	    max-width: 100%;
+	}
 
 	blockquote, q {
 		quotes: none;
@@ -69,12 +71,14 @@
 /*pagination*/
 
 .pagination {
-    display: inline-block;
-
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
 }
 .pagination > a {
     color: black;
-    float: left;
     padding: 8px 16px;
     text-decoration: none;
 }
