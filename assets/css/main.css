@@ -29,7 +29,14 @@
 
 	img {
 	    max-width: 100%;
+			/*padding-left: 8%;*/
 	}
+
+	#image_featured1 > img {
+			max-width: 100%;
+			padding-left: 7%;
+	}
+
 
 	blockquote, q {
 		quotes: none;
